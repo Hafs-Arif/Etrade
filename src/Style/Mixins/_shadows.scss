@@ -1,0 +1,10 @@
+// src/styles/mixins/_shadows.scss
+@mixin shadow($size: 'small') {
+  @if $size == 'small' {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  } @else if $size == 'medium' {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.12);
+  } @else if $size == 'large' {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+}

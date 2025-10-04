@@ -1,0 +1,4 @@
+// src/styles/mixins/_transitions.scss
+@mixin transition($property: all, $duration: 0.3s, $timing: ease) {
+  transition: $property $duration $timing;
+}

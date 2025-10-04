@@ -1,0 +1,22 @@
+// Reset / Global base
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  color: $text-color;
+  background-color: $bg-color;
+  margin: 0;
+  padding: 0;
+}
+
+// Utility classes
+.text-primary {
+  color: $primary-color !important;
+}
+
+.bg-primary {
+  background-color: $primary-color !important;
+}
+
+.btn-primary-custom {
+  @include button-style($primary-color, $secondary-color);
+}
